@@ -1,0 +1,363 @@
+[org/gnome/GWeather]
+temperature-unit='centigrade'
+
+[org/gnome/Weather]
+locations=[<(uint32 2, <('Zaporizhzhia / Mokroye', 'UKDE', false, [(0.83544062768306504, 0.61638726796510768)], @a(dd) [])>)>, <(uint32 2, <('Zaporizhzhia', '', false, [(0.8351537636218781, 0.61292973057433409)], @a(dd) [])>)>]
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/LightWaves.jpg'
+primary-color='#ffffff'
+secondary-color='#000000'
+
+[org/gnome/desktop/input-sources]
+mru-sources=[('xkb', 'us'), ('xkb', 'ru')]
+sources=[('xkb', 'us'), ('xkb', 'ru')]
+xkb-options=['lv3:ralt_switch', 'grp:ctrl_shift_toggle']
+
+[org/gnome/desktop/interface]
+clock-show-date=true
+clock-show-seconds=true
+cursor-theme='Adwaita'
+document-font-name='Roboto 11'
+enable-hot-corners=false
+font-name='Roboto 11'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Orchis'
+icon-theme='Material-Icons'
+monospace-font-name='Roboto Mono 11'
+show-battery-percentage=false
+text-scaling-factor=1.0
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+disable-microphone=false
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/gnome/LightWaves.jpg'
+primary-color='#ffffff'
+secondary-color='#000000'
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=false
+
+[org/gnome/desktop/wm/keybindings]
+begin-move=@as []
+begin-resize=@as []
+maximize=@as []
+panel-main-menu=['<Alt>F1']
+unmaximize=@as []
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+titlebar-font='Roboto Bold 11'
+
+[org/gnome/documents]
+window-maximized=true
+
+[org/gnome/eog/view]
+background-color='rgb(0,0,0)'
+use-background-color=true
+
+[org/gnome/evolution-data-server]
+migrated=true
+network-monitor-gio-name=''
+
+[org/gnome/file-roller/listing]
+list-mode='as-folder'
+name-column-width=291
+show-path=false
+sort-method='name'
+sort-type='ascending'
+
+[org/gnome/file-roller/ui]
+sidebar-width=200
+window-height=474
+window-width=600
+
+[org/gnome/five-or-more]
+window-height=639
+window-is-maximized=false
+window-width=752
+
+[org/gnome/gedit/plugins]
+active-plugins=['sort', 'docinfo', 'modelines', 'filebrowser', 'spell']
+
+[org/gnome/gedit/plugins/filebrowser]
+root='file:///'
+tree-view=true
+virtual-root='file:///home/vento/.local/share/gnome-shell/extensions/netspeedsimplified@prateekmedia.extension/schemas'
+
+[org/gnome/mutter]
+attach-modal-dialogs=true
+center-new-windows=true
+overlay-key='Super_L'
+
+[org/gnome/nautilus/icon-view]
+default-zoom-level='small'
+
+[org/gnome/nautilus/list-view]
+default-zoom-level='standard'
+
+[org/gnome/nautilus/preferences]
+always-use-location-entry=true
+default-folder-viewer='list-view'
+executable-text-activation='launch'
+search-filter-time-type='last_modified'
+search-view='list-view'
+show-image-thumbnails='always'
+
+[org/gnome/nautilus/window-state]
+initial-size=(902, 559)
+maximized=false
+sidebar-width=192
+start-with-sidebar=true
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/']
+home=['<Super>e']
+logout=@as []
+magnifier=@as []
+magnifier-zoom-in=@as []
+magnifier-zoom-out=@as []
+next=['<Super>Right']
+pause=@as []
+play=['<Super>Down']
+previous=['<Super>Left']
+screenreader=@as []
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Primary><Alt>t'
+command='gnome-terminal'
+name='Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Shift><Super>s'
+command='/usr/bin/flameshot gui'
+name='Flameshot'
+
+[org/gnome/settings-daemon/plugins/xsettings]
+antialiasing='grayscale'
+hinting='slight'
+
+[org/gnome/shell]
+command-history=['r']
+disable-user-extensions=false
+disabled-extensions=@as []
+enabled-extensions=['simple-dock@nothing.org', 'axemenu@wheezy', 'kiran-menu@kylinos.com.cn', 'desktopicons-neo@darkdemon', 'gnomeGlobalAppMenu@lestcape', 'GnomeGlobalAppMenu_fix_@lestcape', 'fildemGMenu@gonza.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'trayIconsReloaded@selfmade.pl', 'appindicatorsupport@rgcjonas.gmail.com', 'arcmenu@arcmenu.com', 'Hide_Activities@shay.shayel.org', 'weatherintheclock@JasonLG1979.github.io', 'netspeedsimplified@prateekmedia.extension', 'task-widget@juozasmiskinis.gitlab.io', 'alternate-tab@gnome-shell-extensions.gcampax.github.com', 'music-integration@brianrobles204', 'mediaplayer@hellomouse.net', 'mprisindicatorbutton@JasonLG1979.github.io', 'blyr@yozoon.dev.gmail.com', 'noannoyance@sindex.com', 'systemMonitor@gnome-shell-extensions.gcampax.github.com', 'system-monitor@paradoxxx.zero.gmail.com', 'alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'layout-swicher-seach-ru-en@slonstudio.org', 'MprisControl@zdyb.tk', 'pulseaudio-equalizer@s8dragon.vn', 'Media_Controls@katsarov.org', 'search-layout-switcher@oxygenws.com', 'weeks-start-on-monday', 'weeks-start-on-monday@extensions.gnome-shell.fifi.org', 'miniCal@Macksz', 'youtube-float-window@exsul', 'ClearAll@alireza6677.gmail.com', 'add-on-desktop@maestroschan.fr', 'Resource_Monitor@Ory0n', 'youtube-float-window@ulisses1478', 'remove-alt-tab-delay@tetrafox.pw', 'remove-alt-tab-delay@daase.net', 'simple-name@rmariano.github.com', 'loadavg@gnome.stefan-kent.com', 'bigavatar@db0x.de', 'big-avatar@gustavoperedo.org', 'dynamic-panel-transparency@rockon999.github.io', 'transparent-window@pbxqdown.github.com', 'add-username-toppanel@brendaw.com', 'extensions-sync@elhan.io', 'laine@knasher.gmail.com', 'runcat@kolesnikov.se', 'transparentwindows.mdirshad07', 'todolist@bsaleil.org', 'CpuMemInfo@xesnet.fr', 'sound-percentage@maestroschan.fr', 'SimplerOffMenu.kerkus@pm.me', 'add-to-desktop@tommimon.github.com', 'blur-provider@corvettecole.github.com', 'username-hotname@it-und-entwicklung-fg.de', 'scrovol@andyholmes.github.io', 'volume_scroll@qord.si', 'services-systemd@abteil.org', 'syspeek-gs@gs.eros2.info', 'clean-system-menu@astrapi.de', 'quake-mode@repsac-by.github.com', 'mediacontrols@cliffniff.github.com', 'cpufreq@konkor', 'ssm-gnome@lgiki.net', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'LogOutButton@kyle.aims.ac.za', 'alternative-status-menu@sam.sambull.org', 'suspend-button@laserb', 'BringOutSubmenuOfPowerOffLogoutButton@pratap.fastmail.fm', 'dash-to-dock@micxgx.gmail.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'org.gnome.Terminal.desktop']
+
+[org/gnome/shell/extensions/arcmenu]
+activate-on-hover=true
+alphabetize-all-programs=true
+application-shortcuts-list=@aas []
+apps-show-extra-details=false
+arc-menu-icon=56
+arc-menu-placement='DASH'
+available-placement=[false, false, true]
+avatar-style='Circular'
+border-color='rgb(63,62,64)'
+button-padding=-1
+color-themes=[['ArcMenu Theme', 'rgba(28, 28, 28, 0.98)', 'rgba(211, 218, 227, 1)', 'rgb(63,62,64)', 'rgba(238, 238, 236, 0.1)', 'rgba(255,255,255,1)', 'rgb(63,62,64)', '9', '0', '0', '0', '0', 'false']]
+default-menu-view='Categories_List'
+directory-shortcuts-list=[['Home', 'ArcMenu_Home', 'ArcMenu_Home'], ['Downloads', 'ArcMenu_Downloads', 'ArcMenu_Downloads']]
+disable-category-arrows=false
+disable-menu-button-active-indicator=false
+disable-recently-installed-apps=false
+disable-scrollview-fade-effect=false
+disable-searchbox-border=false
+disable-tooltips=false
+disable-user-avatar=false
+enable-activities-shortcut=false
+enable-clock-widget-raven=false
+enable-clock-widget-unity=false
+enable-custom-arc-menu=false
+enable-horizontal-flip=false
+enable-large-icons=false
+enable-menu-button-arrow=false
+enable-sub-menus=false
+enable-unity-homescreen=false
+enable-weather-widget-raven=false
+enable-weather-widget-unity=false
+extra-categories=[(0, false), (1, false), (2, false), (3, false), (4, false)]
+force-menu-location='Off'
+gap-adjustment=1
+gnome-dash-show-applications=true
+highlight-color='rgba(238, 238, 236, 0.1)'
+highlight-foreground-color='rgba(255,255,255,1)'
+hot-corners='Default'
+indicator-color='rgb(41, 165, 249)'
+indicator-text-color='rgba(196, 196, 196, 0.3)'
+menu-arrow-size=20
+menu-border-size=0
+menu-button-appearance='Icon'
+menu-button-icon='Arc_Menu_Icon'
+menu-color='rgba(28, 28, 28, 0.98)'
+menu-corner-radius=20
+menu-font-size=9
+menu-foreground-color='rgba(211, 218, 227, 1)'
+menu-height=500
+menu-hotkey='Super_L'
+menu-layout='Redmond'
+menu-margin=0
+menu-width=500
+mint-pinned-app-list=['Terminal', 'utilities-terminal', 'org.gnome.Terminal.desktop', 'Settings', 'emblem-system-symbolic', 'gnome-control-center.desktop', 'Files', 'system-file-manager', 'org.gnome.Nautilus.desktop', 'Log Out', 'application-exit-symbolic', 'ArcMenu_LogOut', 'Lock', 'changes-prevent-symbolic', 'ArcMenu_Lock', 'Power Off', 'system-shutdown-symbolic', 'ArcMenu_PowerOff']
+multi-lined-labels=true
+multi-monitor=true
+override-hot-corners=false
+override-menu-button-active-color=false
+override-menu-button-color=true
+override-menu-button-hover-background-color=false
+override-menu-button-hover-color=false
+pinned-app-list=@as []
+power-options=[(0, false), (1, false), (2, false), (3, false), (4, false), (5, false), (6, false)]
+prefs-visible-page=0
+recently-installed-apps=@as []
+remove-menu-arrow=false
+right-panel-width=200
+runner-position='Centered'
+runner-show-frequent-apps=true
+runner-use-theme-gap=false
+searchbar-default-bottom-location='Top'
+searchbar-default-top-location='Top'
+separator-color='rgb(63,62,64)'
+show-activities-button=false
+show-bookmarks=true
+show-external-devices=true
+show-search-result-details=false
+unity-pinned-app-list=['Home', 'ArcMenu_Home', 'ArcMenu_Home', 'Documents', 'ArcMenu_Documents', 'ArcMenu_Documents', 'Downloads', 'ArcMenu_Downloads', 'ArcMenu_Downloads', 'Software', 'system-software-install-symbolic', 'org.gnome.Software.desktop', 'Files', 'system-file-manager', 'org.gnome.Nautilus.desktop', 'Log Out', 'application-exit-symbolic', 'ArcMenu_LogOut', 'Lock', 'changes-prevent-symbolic', 'ArcMenu_Lock', 'Power Off', 'system-shutdown-symbolic', 'ArcMenu_PowerOff']
+vert-separator=false
+windows-disable-frequent-apps=true
+windows-disable-pinned-apps=true
+
+[org/gnome/shell/extensions/big-avatar]
+fontsize=16
+horizontalmode=true
+picturesize=48
+usedefaultvalues=true
+
+[org/gnome/shell/extensions/brngout]
+remove-logout-button=true
+remove-separator-1=false
+remove-separator-2=false
+remove-suspend-button=true
+
+[org/gnome/shell/extensions/dash-to-dock]
+animate-show-apps=true
+apply-custom-theme=false
+autohide=true
+autohide-in-fullscreen=false
+background-color='#000000'
+background-opacity=0.5
+border-radius=15
+click-action='minimize-or-previews'
+custom-background-color=true
+custom-theme-customize-running-dots=false
+custom-theme-running-dots-border-color='#ed333b'
+custom-theme-running-dots-border-width=0
+custom-theme-running-dots-color='#ffffff'
+custom-theme-shrink=true
+customize-alphas=false
+dash-max-icon-size=40
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+floating-margin=0
+force-straight-corner=false
+height-fraction=0.90000000000000002
+icon-size-fixed=false
+intellihide=true
+intellihide-mode='ALL_WINDOWS'
+isolate-workspaces=false
+max-alpha=0.5
+min-alpha=0.5
+multi-monitor=true
+preferred-monitor=0
+require-pressure-to-show=false
+running-indicator-dominant-color=false
+running-indicator-style='SOLID'
+show-apps-at-top=true
+show-delay=1.3877787807814457e-17
+show-favorites=true
+show-mounts=true
+show-show-apps-button=true
+show-trash=false
+show-windows-preview=true
+transparency-mode='FIXED'
+unity-backlit-items=false
+
+[org/gnome/shell/extensions/desktopicons-neo]
+add-volumes-opposite=false
+curved-corners=true
+desktop-directory='/home/vento/Desktop'
+draw-symbols=false
+icon-shape='rectangular'
+icon-size='small'
+show-home=true
+show-network-volumes=false
+show-trash=true
+show-volumes=true
+
+[org/gnome/shell/extensions/netspeedsimplified]
+chooseiconset=0
+fontmode=0
+hideindicator=false
+iconstoright=false
+isvertical=false
+limitunit=0
+lockmouseactions=true
+mode=1
+refreshtime=1.0
+restartextension=false
+reverseindicators=false
+shortenunits=false
+systemcolr=true
+textalign=1
+togglebool=false
+wpos=1
+wposext=0
+
+[org/gnome/shell/extensions/user-theme]
+name='Orchis'
+
+[org/gnome/shell/keybindings]
+focus-active-notification=@as []
+open-application-menu=@as []
+toggle-application-view=@as []
+toggle-message-tray=@as []
+
+[org/gnome/shell/weather]
+automatic-location=true
+locations=[<(uint32 2, <('Zaporizhzhia / Mokroye', 'UKDE', false, [(0.83544062768306504, 0.61638726796510768)], @a(dd) [])>)>, <(uint32 2, <('Zaporizhzhia', '', false, [(0.8351537636218781, 0.61292973057433409)], @a(dd) [])>)>]
+
+[org/gnome/shell/window-switcher]
+app-icon-mode='both'
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.52156862745098043, 0.52156862745098043, 0.52156862745098043, 1.0), (0.52000000000000002, 0.52000000000000002, 0.52000000000000002, 1.0), (0.24705882352941178, 0.24313725490196078, 0.25098039215686274, 1.0)]
+selected-color=(true, 0.0, 0.0, 0.0, 1.0)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=true
+show-size-column=true
+show-type-column=true
+sidebar-width=185
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(56, 50)
+window-size=(1440, 826)
+
+[system/locale]
+region='en_US.UTF-8'
