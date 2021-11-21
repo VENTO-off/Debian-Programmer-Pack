@@ -17,6 +17,8 @@ echo -e "Done.\n"
 # install flameshot
 echo "Installing Flameshot..."
 unzip -q data_files/flameshot.zip -d /home/$(logname)/.config/flameshot/
+chown $(logname) /home/$(logname)/.config/flameshot/
+chown $(logname) /home/$(logname)/.config/flameshot/*
 apt-get -qq -y install flameshot
 mkdir -p /home/$(logname)/.config/autostart/
 cp /usr/share/applications/org.flameshot.Flameshot.desktop /home/$(logname)/.config/autostart/Flameshot.desktop
