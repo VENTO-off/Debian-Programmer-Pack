@@ -58,6 +58,15 @@ Just type the number of the component and press ENTER.
 
 - [Toolbox App](https://www.jetbrains.com/toolbox-app/) — Application to manage JetBrains tools easily
 
+#### Instruction for resetting evaluation period in JetBrains products:
+1. Open JetBrains IDE
+2. Go to `File` 🠊 `Settings` 🠊 `Plugins`
+3. Click on the `gears icon` 🠊 `Manage Plugin Repositories`
+4. Add URL `https://plugins.zhile.io` and press `OK`
+5. In the `Marketplace` search and install plugin `IDE Eval Reset`
+6. Go to `Help` 🠊 `Eval Reset` 🠊 `Reset` 🠊 `Yes`
+7. Restart the IDE
+
 ### [4] JDK
 
 - [Java SE Development](https://www.oracle.com/java/technologies/downloads/) — Tools for developing, debugging, and monitoring Java applications
