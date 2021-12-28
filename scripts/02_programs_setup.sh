@@ -8,12 +8,6 @@ if [ `id -u` != "0" ]; then
     exit 1
 fi
 
-# install snap store
-echo "Installing Snap Store..."
-apt-get -qq -y install snapd
-snap install core
-echo -e "Done.\n"
-
 # install flameshot
 echo "Installing Flameshot..."
 unzip -q data_files/flameshot.zip -d /home/$(logname)/.config/flameshot/
@@ -36,17 +30,15 @@ echo -e "Done.\n"
 
 # install telegram desktop
 echo "Installing Telegram Desktop..."
-snap install telegram-desktop
-cp /var/lib/snapd/desktop/applications/telegram-desktop_telegram-desktop.desktop /home/$(logname)/.config/autostart/telegram-desktop.desktop
-sed 's/-- %u/-startintray -- %u/g' /home/$(logname)/.config/autostart/telegram-desktop.desktop | sudo tee /home/$(logname)/.config/autostart/telegram-desktop.desktop
-chown $(logname) /home/$(logname)/.config/autostart/telegram-desktop.desktop
-chmod +x /home/$(logname)/.config/autostart/telegram-desktop.desktop
+sh -c 'echo "deb http://ppa.launchpad.net/atareao/telegram/ubuntu xenial main" >> /etc/apt/sources.list'
+sh -c 'echo "deb-src http://ppa.launchpad.net/atareao/telegram/ubuntu xenial main" >> /etc/apt/sources.list'
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 36FD5529
+apt-get update
+apt-get install telegram
 echo -e "Done.\n"
 
 # install sublime text
-echo "Installing Sublime Text..."
-snap install sublime-text --classic
-echo -e "Done.\n"
+# TODO
 
 # install filezilla
 echo "Installing FileZilla..."
