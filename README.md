@@ -45,7 +45,6 @@ Just type the number of the component and press ENTER.
 
 ### [2] Applications for programming
 
-- [Snap Store](https://snapcraft.io/store) — Store to install and manage applications
 - [Flameshot](https://flameshot.org/) — Powerful screenshot software
 - [Google Chrome](https://www.google.com/intl/en/chrome/) — Web browser
 - [Telegram Desktop](https://desktop.telegram.org/) — Telegram messenger
